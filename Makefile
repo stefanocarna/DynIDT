@@ -13,4 +13,4 @@ clean:
 	@$(MAKE) -C $(KROOT) M=$(PWD) clean
 	rm -rf   Module.symvers modules.order
 
-.PHONY modules modules_install clean
+.PHONY: modules modules_install clean
